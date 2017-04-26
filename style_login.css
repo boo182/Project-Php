@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+
+    font-family: verdana;
+    font-size: 30px;
+}
+form{
+    text-align: center;
+
+
+#id {
+	width: 50%;
+
+}
+
+input{
+
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+}
+div.center {
+    margin: auto;
+    width: 93%;
+
+}
+
+div.form_log{
+width: 15%;
+
+}
+div.form_ins {
+width: 60%;
+}
+
+#reg_form {
+	width: 10px;
+
+}
+
+div.form_adm {
+	width: 40px;
+
+}
+

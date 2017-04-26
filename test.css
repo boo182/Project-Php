@@ -1,0 +1,87 @@
+/* Devide part*/
+html, body { height: 100%; padding: 0; margin: 0; }
+div { width: 25%; height: 25%; float: left; }
+
+
+
+/*#div1 { background: #DDD; }
+#div2 { background: #AAA; }
+#div3 { background: #777; }
+#div4 { background: #444; }
+*/
+
+/* Hover part*/
+
+
+.container {
+  position: relative;
+  width: 25%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 480px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+p.center {
+    text-align: center;
+font-family: "Sans-serif";
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
